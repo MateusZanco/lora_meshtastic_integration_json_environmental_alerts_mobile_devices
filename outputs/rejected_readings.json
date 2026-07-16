@@ -1,0 +1,65 @@
+[
+  {
+    "schema_version": "1.0",
+    "device_id": "sim-water-node-01",
+    "node_name": "Nó hídrico simulado 01",
+    "latitude": -26.3,
+    "longitude": -48.84,
+    "altitude_m": null,
+    "sensor_type": "water_level",
+    "unit": "cm",
+    "source": "simulation",
+    "reading_id": "invalid-timestamp",
+    "timestamp": "16/07/2026 12:00",
+    "sensor_value": 24.0,
+    "processing_status": "rejected",
+    "errors": [
+      {
+        "field": "timestamp",
+        "message": "Timestamp ISO 8601 inválido."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0",
+    "device_id": "sim-water-node-01",
+    "node_name": "Nó hídrico simulado 01",
+    "latitude": -91.0,
+    "longitude": -48.84,
+    "altitude_m": null,
+    "sensor_type": "water_level",
+    "unit": "cm",
+    "source": "simulation",
+    "reading_id": "invalid-location",
+    "timestamp": "2026-07-16T12:00:00-03:00",
+    "sensor_value": 24.0,
+    "processing_status": "rejected",
+    "errors": [
+      {
+        "field": "latitude",
+        "message": "Latitude deve estar entre -90 e 90."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0",
+    "device_id": "sim-water-node-01",
+    "node_name": "Nó hídrico simulado 01",
+    "latitude": -26.3,
+    "longitude": -48.84,
+    "altitude_m": null,
+    "sensor_type": "water_level",
+    "unit": "meters",
+    "source": "simulation",
+    "reading_id": "invalid-unit",
+    "timestamp": "2026-07-16T12:00:00-03:00",
+    "sensor_value": 24.0,
+    "processing_status": "rejected",
+    "errors": [
+      {
+        "field": "unit",
+        "message": "Unidade esperada: cm."
+      }
+    ]
+  }
+]

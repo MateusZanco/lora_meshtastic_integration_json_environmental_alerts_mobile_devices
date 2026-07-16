@@ -1,0 +1,24 @@
+{
+  "simulation": true,
+  "transport": "MQTT JSON bridge illustration — not a Meshtastic radio packet",
+  "topic": "americas-techguard/simulation/sim-water-node-01/telemetry",
+  "payload": {
+    "schema_version": "1.0",
+    "device_id": "sim-water-node-01",
+    "node_name": "Nó hídrico simulado 01",
+    "latitude": -26.3,
+    "longitude": -48.84,
+    "altitude_m": null,
+    "sensor_type": "water_level",
+    "unit": "cm",
+    "source": "simulation",
+    "reading_id": "sim-20260716-0003",
+    "timestamp": "2026-07-16T12:10:00-03:00",
+    "sensor_value": 124.0,
+    "trend_cm_per_min": 14.8,
+    "risk_level": "alert",
+    "alert_message": "ALERTA: nível da água em 124.0 cm. Prepare-se e acompanhe os avisos oficiais.",
+    "processing_status": "accepted"
+  },
+  "warning": "Nenhuma publicação MQTT, transmissão LoRa ou notificação móvel ocorreu."
+}

@@ -1,0 +1,12 @@
+{
+  "simulation": true,
+  "input_count": 4,
+  "accepted_count": 4,
+  "rejected_count": 0,
+  "risk_counts": {
+    "safe": 1,
+    "attention": 1,
+    "alert": 1,
+    "critical": 1
+  }
+}
