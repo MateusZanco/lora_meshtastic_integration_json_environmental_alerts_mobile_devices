@@ -1,0 +1,94 @@
+[
+  {
+    "reading_id": "sim-20260716-0001",
+    "budget_bytes": 250,
+    "canonical_json_bytes": 579,
+    "compact_json_bytes": 199,
+    "canonical_within_budget": false,
+    "compact_within_budget": true,
+    "compact_payload": {
+      "i": "sim-20260716-0001",
+      "t": "2026-07-16T12:00:00-03:00",
+      "p": [
+        -26.3,
+        -48.84
+      ],
+      "s": "rg",
+      "v": 0.0,
+      "u": "mm",
+      "a": 0.0,
+      "r": "safe",
+      "m": "Chuva acumulada em 1 h: 0.0 mm. Monitoramento simulado ativo.",
+      "o": "sim"
+    }
+  },
+  {
+    "reading_id": "sim-20260716-0002",
+    "budget_bytes": 250,
+    "canonical_json_bytes": 597,
+    "compact_json_bytes": 215,
+    "canonical_within_budget": false,
+    "compact_within_budget": true,
+    "compact_payload": {
+      "i": "sim-20260716-0002",
+      "t": "2026-07-16T12:05:00-03:00",
+      "p": [
+        -26.3,
+        -48.84
+      ],
+      "s": "rg",
+      "v": 5.0,
+      "u": "mm",
+      "a": 5.0,
+      "r": "attention",
+      "m": "ATENÇÃO: chuva acumulada em 1 h: 5.0 mm. Acompanhe os avisos oficiais.",
+      "o": "sim"
+    }
+  },
+  {
+    "reading_id": "sim-20260716-0003",
+    "budget_bytes": 250,
+    "canonical_json_bytes": 595,
+    "compact_json_bytes": 211,
+    "canonical_within_budget": false,
+    "compact_within_budget": true,
+    "compact_payload": {
+      "i": "sim-20260716-0003",
+      "t": "2026-07-16T12:10:00-03:00",
+      "p": [
+        -26.3,
+        -48.84
+      ],
+      "s": "rg",
+      "v": 16.0,
+      "u": "mm",
+      "a": 21.0,
+      "r": "alert",
+      "m": "ALERTA: chuva acumulada em 1 h: 21.0 mm. Acompanhe os avisos oficiais.",
+      "o": "sim"
+    }
+  },
+  {
+    "reading_id": "sim-20260716-0004",
+    "budget_bytes": 250,
+    "canonical_json_bytes": 596,
+    "compact_json_bytes": 211,
+    "canonical_within_budget": false,
+    "compact_within_budget": true,
+    "compact_payload": {
+      "i": "sim-20260716-0004",
+      "t": "2026-07-16T12:15:00-03:00",
+      "p": [
+        -26.3,
+        -48.84
+      ],
+      "s": "rg",
+      "v": 24.0,
+      "u": "mm",
+      "a": 45.0,
+      "r": "critical",
+      "m": "CRÍTICO: chuva acumulada em 1 h: 45.0 mm. Siga os avisos oficiais.",
+      "o": "sim"
+    }
+  }
+]
