@@ -1,0 +1,36 @@
+services:
+  mqtt:
+    image: eclipse-mosquitto:2.1.2-alpine
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${MQTT_HOST_PORT}:1883"
+    volumes:
+      - ./mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - mosquitto-data:/mosquitto/data
+      - mosquitto-log:/mosquitto/log
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      - mqtt
+    environment:
+      MQTT_HOST: ${MQTT_HOST}
+      MQTT_PORT: ${MQTT_PORT}
+      MQTT_TOPIC: ${MQTT_TOPIC}
+      MQTT_CLIENT_ID: ${MQTT_CLIENT_ID}
+      MQTT_USERNAME: ${MQTT_USERNAME}
+      MQTT_PASSWORD: ${MQTT_PASSWORD}
+      MQTT_QOS: ${MQTT_QOS}
+      RAIN_GAUGE_TIP_MM: ${RAIN_GAUGE_TIP_MM}
+      SAMPLE_INTERVAL_MINUTES: ${SAMPLE_INTERVAL_MINUTES}
+      ACCUMULATION_WINDOW_MINUTES: ${ACCUMULATION_WINDOW_MINUTES}
+      GRADIO_SERVER_PORT: 7860
+    ports:
+      - "127.0.0.1:${GRADIO_HOST_PORT}:7860"
+
+volumes:
+  mosquitto-data:
+  mosquitto-log:

@@ -1,2 +1,5 @@
 .venv
 /documentos_referencia
+.env
+__pycache__/
+*.py[cod]

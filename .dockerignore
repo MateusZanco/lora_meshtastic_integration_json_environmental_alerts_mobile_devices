@@ -1,0 +1,8 @@
+.git
+.venv
+documentos_referencia
+notebooks
+outputs
+.env
+__pycache__
+*.pyc
