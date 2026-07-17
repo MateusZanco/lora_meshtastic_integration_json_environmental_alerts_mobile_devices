@@ -258,11 +258,10 @@ Esta PoC não é um sistema de emergência e não deve orientar evacuação, int
 
 ## Referências
 
-1. SENAI/SC. *Período 8 — Integração LoRa-Meshtastic, JSON e Alertas Ambientais para Dispositivos Móveis*. Material de atividade fornecido ao estudante.
-2. Zakaria, M. I.; Jabbar, W. A.; Sulaiman, N. [*Development of a smart sensing unit for LoRaWAN-based IoT flood monitoring and warning system in catchment areas*](https://doi.org/10.1016/j.iotcps.2023.04.005). *Internet of Things and Cyber-Physical Systems*, 2023.
-3. Garzon Andosilla, R.; Rugeles Uribe, J. [*A Meshtastic-based LoRa Mesh System for Smart Campus Applications: From Solar-Powered Sensing to Containerized Data Management*](https://arxiv.org/abs/2605.20379), 2026.
-4. Meshtastic. [MQTT Module Configuration](https://meshtastic.org/docs/configuration/module/mqtt/).
-5. Meshtastic. [Telemetry Module Configuration](https://meshtastic.org/docs/configuration/module/telemetry/).
+1. Zakaria, M. I.; Jabbar, W. A.; Sulaiman, N. [*Development of a smart sensing unit for LoRaWAN-based IoT flood monitoring and warning system in catchment areas*](https://doi.org/10.1016/j.iotcps.2023.04.005). *Internet of Things and Cyber-Physical Systems*, 2023.
+2. Garzon Andosilla, R.; Rugeles Uribe, J. [*A Meshtastic-based LoRa Mesh System for Smart Campus Applications: From Solar-Powered Sensing to Containerized Data Management*](https://arxiv.org/abs/2605.20379), 2026.
+3. Meshtastic. [MQTT Module Configuration](https://meshtastic.org/docs/configuration/module/mqtt/).
+4. Meshtastic. [Telemetry Module Configuration](https://meshtastic.org/docs/configuration/module/telemetry/).
 
 ## Licença
 
